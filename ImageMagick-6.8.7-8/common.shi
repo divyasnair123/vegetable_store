@@ -1,0 +1,21 @@
+# Test environment
+top_srcdir='/home/u100053/src/ImageMagick-6.8.7-8'
+top_builddir='/home/u100053/src/ImageMagick-6.8.7-8'
+
+set -a
+COMPARE="/home/u100053/src/ImageMagick-6.8.7-8/utilities/compare"
+COMPOSITE="/home/u100053/src/ImageMagick-6.8.7-8/utilities/composite"
+CONJURE="/home/u100053/src/ImageMagick-6.8.7-8/utilities/conjure"
+CONVERT="/home/u100053/src/ImageMagick-6.8.7-8/utilities/convert"
+DISPLAY="/home/u100053/src/ImageMagick-6.8.7-8/utilities/display"
+IDENTIFY="/home/u100053/src/ImageMagick-6.8.7-8/utilities/identify"
+MONTAGE="/home/u100053/src/ImageMagick-6.8.7-8/utilities/montage" 
+VALIDATE="/home/u100053/src/ImageMagick-6.8.7-8/tests/validate"
+DRAWTEST="/home/u100053/src/ImageMagick-6.8.7-8/tests/drawtest"
+WANDTEST="/home/u100053/src/ImageMagick-6.8.7-8/tests/wandtest"
+LD_LIBRARY_PATH="/home/u100053/src/ImageMagick-6.8.7-8/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/u100053/src/ImageMagick-6.8.7-8/coders"
+MAGICK_CONFIGURE_PATH="/home/u100053/src/ImageMagick-6.8.7-8/config:/home/u100053/src/ImageMagick-6.8.7-8/config"
+MAGICK_FILTER_MODULE_PATH="/home/u100053/src/ImageMagick-6.8.7-8/filters"
+PATH="/home/u100053/src/ImageMagick-6.8.7-8/utilities:/home/u100053/src/ImageMagick-6.8.7-8/tests:${PATH}"
+set +a
